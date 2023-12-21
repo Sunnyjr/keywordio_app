@@ -1,0 +1,114 @@
+.App {
+  text-align: center;
+}
+:root {
+  --white: #fbfbfb;
+  --DarkGray: #a3a3a3;
+  --InkBlue: #0a4b65;
+  --border: #d9d9d9;
+  --white100: #ffffff;
+  --whiteF2: #f2f2f2;
+  --whiteFc: #fcfcfc;
+  --StormyStraitGreen: #0d988c;
+  --black: #000000;
+  --text: #151875;
+}
+
+h2,
+h4,
+h5 {
+  margin: 0;
+}
+body,
+html {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+a {
+  text-decoration: none;
+}
+.container {
+  max-width: 1440px;
+  width: calc(100% - 140px);
+  margin: 0 auto;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* responsive */
+@media screen and (max-width: 992px) {
+  .container {
+    max-width: 100%;
+    width: calc(100% - 40px);
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    max-width: 100%;
+    width: calc(100% - 24px);
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .SignUp-SignIn span {
+    display: none !important;
+  }
+}
+
+/* font import  */
+/* 
+@font-face {
+  font-family: "Cairo";
+  src: url("./assets/fonts/Cairo/static/Cairo-Medium.ttf");
+  font-style: Medium;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Cairo";
+  src: url("./assets/fonts/Cairo/static/Cairo-SemiBold.ttf");
+  font-style: SemiBold;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Cairo";
+  src: url("./assets/fonts/Cairo/static/Cairo-Bold.ttf");
+  font-style: Bold;
+  font-weight: 700;
+} */
